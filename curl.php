@@ -5,7 +5,7 @@
     //define as configurações
  
     curl_setopt_array($curl, [
-        CURLOPT_URL => "http://localhost/aprendendo-curl/api.php", //passa a url desejada
+        CURLOPT_URL => "http://localhost/fazendo-requisicoes-php/api.php", //passa a url desejada
         CURLOPT_CUSTOMREQUEST => "GET", //tipo da requisição
         CURLOPT_RETURNTRANSFER => true //tipo da referencia 
 
